@@ -31,3 +31,6 @@ def mergeSort(arr):
     
 n = [132,32,3,12,23,43,6,1]
 print(mergeSort(n))
+
+#so f(n) = 2xf(n/2) + n
+#it is O(nlogn)
